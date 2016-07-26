@@ -1,0 +1,642 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*背景部分*/
+.bg{
+	width: 1022px;
+	/*height: 1660px;*/
+	/*background-color: #E6BD00;*/
+	/*background: url(../img/BLOGggg_07.jpg) ;*/
+	background: url(../img/BLOG_01.jpg);
+	margin:0 auto;
+	overflow: hidden;
+}
+.bg_right{
+	/*height: 1660px;*/
+	width: 1022px;
+	background: url(../img/BLOG111_06.jpg) repeat-y right 0px;
+	/*overflow: hidden;*/
+}
+.bg_left{
+	/*height: 1660px;*/
+	width: 1022px;
+	background: url(../img/BLOGggg_07.jpg) repeat-y left 0px;
+}
+/*总体布局*/
+li{
+
+	font-size: 12px;
+}
+.body, .bottom{
+	margin:0px auto;
+	width: 950px;
+	text-align: center;
+	overflow: hidden;
+}
+.left,.middle,.right{
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.musicman,.company,.idol,.music,.calendar,.visitor,.messige,.friend{
+	width: 228px;
+	margin-top: 14px;
+	background-color: #fed2a5;
+	overflow: hidden;
+	position: relative;
+}
+.video,.lyric,.camera,.mood{
+	width: 452px;
+	background-color: #fed2a5;
+	margin-top:14px;
+	overflow: hidden;
+	position: relative;
+}
+/*颜色设置*/
+.black{
+	color: black;
+}
+.cu{
+	font-weight: bold;
+}
+/*head部分*/
+.head{
+	height:226px;
+	width: 950px;
+	margin:0 auto;
+	background-image: url(../img/tuobg_03.jpg);
+}
+.monkey{
+	background: url(../img/monkey.png) no-repeat;
+	height: 226px;
+	overflow: hidden;
+	position: relative;
+}
+.title{
+	color: #824453;
+	font-family: "微软雅黑";
+	position: absolute;
+	left: 320px;
+	top: 50px;
+	width: 462px;
+	height: 114px;
+	background:rgba(255,255,255,0.5);
+}
+.big{
+	font-size: 40px;
+	font-weight: bold;
+	margin: 10px ;
+	letter-spacing: 4px;
+	display: block;
+}
+.small{
+	margin: 10px ;
+	font-size: 14px;
+	text-indent: 20px;
+}
+.nav{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 30px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.leftnav{
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	height: 30px;
+	width: 15px;
+	margin-right: 10px;
+	background-color: #ff9935;
+	float: left;
+}
+.rightnav{
+	height: 30px;
+	width: 300px;
+	background-color: #ff9935;
+	float: left;
+	text-align: right;
+}
+.rightnav a{
+	text-decoration: none; 
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	word-spacing: 3px;
+}
+#navaright{
+	margin-right:20px;
+}
+/*body部分*/
+.body{
+	background-color: #ffe083;
+}
+/*body头部*/
+.bodyhead{
+	height: 44px;
+	background-image: url(../img/div1_03.jpg);
+	overflow: hidden;
+}
+.bodyheadleft{
+	height: 44px;
+	background: url(../img/blog_03.png) no-repeat left 0px;
+	overflow: hidden;
+}
+.bodyheadright{
+	height: 44px;
+	background: url(../img/blog_05.png) no-repeat right 0px;
+	overflow: hidden;
+	text-align: left;
+	line-height: 44px;
+}
+.bodyheadimg{
+	height:20px;
+	width:20px;
+	background-image: url(../img/biaotou_03.png);
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+	line-height: 44px;
+	overflow: hidden;
+}
+.bodyheadright p{
+	margin-left: 20px;
+	font-size: 14px;
+	color: #b61f28;
+	font-weight: bold;
+	float:left;
+}
+.more{
+	float: right!important;
+	margin-right: 20px!important;
+}
+.more a{
+	font-size: 14px;
+	color: #b61f28;
+}
+/*body底部*/
+.bodybottom{
+	position: absolute;
+	bottom: -20px;
+	height: 44px;
+	width: 100%;
+	background: url(../img/blog_bottom3.png) repeat-x;
+	overflow: hidden;
+}
+.bodybottomleft{
+	height: 44px;
+	background: url(../img/blog_bottom2.png) no-repeat left 0px;
+	overflow: hidden;
+}
+.bodybottomright{
+	height: 44px;
+	background: url(../img/blog_bottom1.png) no-repeat right 0px;
+	overflow: hidden;
+	text-align: left;
+	line-height: 44px;
+}
+/*被选中样式*/
+.onclick{
+	background: url(../img/inputbg_03.jpg)!important;
+	color: #b61f28;
+}
+/*音乐达人*/
+.musicman{
+	height: 350px;
+}
+.musicanbody div{
+	background-image: url(../img/meinv1_03.jpg);
+	width: 200px;
+	height: 200px;
+	margin:4px auto;
+}
+.musicanbody p input{
+	background: url(../img/inputbg1_03.jpg);
+	border: 0;
+	border-radius: 10px;
+	width: 66px;
+	height: 22px;
+	margin:4px 2px;
+}
+/*音乐盒*/
+.music{
+	height: 328px;
+}
+.musicsing{
+	text-align: left;
+	margin-left:10px;
+}
+.musicsing input{
+	/*margin:0 2px;*/
+	height: 22px;
+	width: 46px;
+	border: 0;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px; 
+}
+.music div ul{
+	margin: 16px 4px;
+	list-style: none;
+}
+.music div ul li{
+	word-spacing: 2px;
+	font-size: 12px;
+	text-align: left;
+	margin:8px;	
+	/*font-weight: bold;*/
+	border-bottom: dotted 1px black;
+}
+.music div ul li img{
+	float: right;
+	border: 0;
+	/*background:url(../img/ermai_03.png) no-repeat;*/
+	width: 15px;
+	height: 10px;
+}
+.musictry{
+	font-size: 14px;
+	text-align: right;
+	margin-right: 10px;
+	color: #b61f28;
+	font-weight: bold;
+}
+/*经纪公司*/
+.company{
+	height: 338px;
+}
+.companybody div{
+	background-image: url(../img/meinv1_03.jpg);
+	width: 200px;
+	height: 200px;
+	margin:10px auto;
+}
+.companybody p{
+	color: #b01d23;
+	font-size: 18px;
+	font-weight: bold;
+}
+.companybody p input{
+	color: white;
+	background: url(../img/inputbg1_03.jpg);
+	border: 0;
+	border-radius: 10px;
+	width: 60px;
+	height: 22px;
+	margin:10px 14px;
+}
+/*日历*/
+.calendar{
+	height:266px ;
+}
+.calendarbody{
+	overflow: hidden;
+}
+.calendarborder{
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	border-left: 8px solid;
+	border-right:8px solid;
+	border-bottom: 8px solid;
+	border-color: #FEB974;  
+	overflow: hidden;
+	margin-top: 0px!important;
+}
+.calendarbody div{
+	font-size: 14px;
+	text-align: center;
+	margin: 6px;
+}
+.calendarbody div ul{
+	float: left;
+	text-align: center;
+	list-style: none;
+	margin:auto;
+}
+.calendarbody div ul li{
+	font-size: 14px;
+	text-align: center;
+	padding: 2px;
+	margin:4px;
+}
+.calendartitle{
+	color: #b61f28;
+	text-align: center;
+	font-weight: bold;
+}
+.calendaronclick{
+	padding-color: #b61f28;
+	background-color: #b61f28;
+	color: white;
+}
+.calendarborder div{
+	clear: both;
+}
+.calendarborder div span{
+	font-size: 16px;
+	font-weight: bold;
+	margin:4px 20px;
+}
+.calendarleft{
+	float: left;
+	color: #b61f28;
+}
+.calendarright{
+	float: right;
+}
+/*视频*/
+.video{
+	height: 286px;
+}
+.videobody{
+	overflow: hidden;
+	text-align: center;
+}
+.videobody ul{
+	border-radius: 8px;
+	margin: 6px;
+	float: left;
+	list-style: none;
+}
+.videobody ul li{
+	margin:8px 4px;
+	font-size: 14px;
+}
+.videobody ul li input{
+	background: url(../img/inputbg1_03.jpg);
+	border: 0;
+	border-radius: 8px;
+	height: 23px;
+	width: 50px;
+}
+.videoimgleft{
+	background-image: url(../img/junren_03.png);
+	width: 126px;
+	height: 126px;
+}
+.videoimgmiddle{
+	background-image: url(../img/yinyuenan_03.png);
+	width: 126px;
+	height: 126px;
+}.videoimgright{
+	background-image: url(../img/qichenan_03.png);
+	width: 126px;
+	height: 126px;
+}
+.videoonclick{
+	background-color: #FF9935;
+}
+/*歌词创作*/
+.lyric{
+	height:258px;
+}
+.lyricbody{
+	margin: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.lyricbody ul{
+	margin: 6px;
+	list-style: none;
+	width: 46%;
+	text-align: left;
+	font-size: 14px;
+}
+.lyricbody ul li{
+	margin:6px;
+
+	font-size: 12px;
+}
+.lyricbody ul li a{
+	color:  #b61f28;;
+	float: right;
+}
+.lyricbody .lyricleft{
+	float: left;
+}
+.lyricbody .lyricright{
+	padding-left: 10px;
+	border-left:1px #FCB66E solid;
+	float: right;
+}
+/*相册*/
+.camera{
+	height: 286px;
+}
+.camerabody{
+	overflow: hidden;
+	text-align: center;
+}
+.camerabody ul{
+	border-radius: 8px;
+	margin: 6px;
+	float: left;
+	list-style: none;
+}
+.camerabody ul li{
+	margin:8px 4px;
+	font-size: 14px;
+}
+.camerabody ul li input{
+	background: url(../img/inputbg1_03.jpg);
+	border: 0;
+	border-radius: 8px;
+	height: 23px;
+	width: 50px;
+}
+.cameraimgleft{
+	background-image: url(../img/junren_03.png);
+	width: 126px;
+	height: 126px;
+}
+.cameraimgmiddle{
+	background-image: url(../img/yinyuenan_03.png);
+	width: 126px;
+	height: 126px;
+}.cameraimgright{
+	background-image: url(../img/qichenan_03.png);
+	width: 126px;
+	height: 126px;
+}
+.cameraonclick{
+	background-color: #FF9935;
+}
+/*心情日记*/
+.mood{
+	height:286px ;
+}
+.moodbody{
+	margin: 16px;
+}
+.moodbody ul{
+	list-style: none;
+	text-align: center;
+	font-size: 14px;
+}
+.moodbody ul li{
+	border-bottom: dotted black 1px;
+	padding: 2px 0px;
+}
+.moodleft{
+	width: 40%;
+	float: left;
+}
+.moodcenter{
+	width: 30%;
+	float: left;
+}
+..moodright{
+	float: right;
+	width: 30%;
+	text-align: left;
+	text-indent: 20px;
+}
+.moodbody ul .caption{
+	color:#b61f28;
+	font-weight: bold;
+}
+/*访问记录*/
+.visitor{
+	height:210px ;
+}
+.visitorbody{
+	width: 98%;
+	margin: auto 10px;
+}
+.visitorbody ul{
+	list-style: none;
+	/*text-align: center;*/
+	font-size: 18px;
+}
+.visitorbody ul li{
+	font-size: 16px;
+	border-bottom: dotted black 1px;
+	padding: 4px 0px;
+}
+.visitorleft{
+	width: 44%;
+	float: left;
+	font-weight: bold;
+	color: #B51E27;
+	word-spacing: 2px;
+}
+.visitorright{
+	/*float: right;*/
+	float: left;
+	text-align: left!important;
+	width: 44%;
+	text-align: left;
+	text-indent: 28px;
+}
+.visitorbody ul .caption{
+	color:#b61f28;
+	font-weight: bold;
+}
+/*留言*/
+.messige{
+	height:280px ;
+}
+.messigebody ul{
+	word-spacing: 2px;
+	margin-left: 2px;
+	list-style: none;
+}
+.messigebody ul li{
+	width: 90%;
+	font-size: 14px;
+	text-indent: 14px;
+	background:url(../img/huangdian_03.png) no-repeat 0px 4px;
+}
+.ziti{
+	color: #B51E27!important;
+	text-decoration: underline;
+}
+.messigebody ul li .a{
+
+	color: black;
+	text-decoration: underline;
+}
+.messigebody a{
+	color: black;
+	line-height: 26px;
+	text-decoration: none;
+}
+/*好友*/
+.friend{
+	height:418px ;
+}
+.friendbody{
+	margin:8px;
+}
+.friendbody div{
+	margin:6px;
+		overflow: hidden;
+}
+.friendbodyleft{
+	background:url(../img/meinan_03.jpg);
+	margin:4px;
+	height: 66px;
+	width: 66px;
+	float: left;
+}
+.friendbodyright{
+	margin:4px;
+	float: left;
+}
+.friendcolor{
+	color: #B51E27!important;
+}
+.friendbody p{
+	margin:5px;
+}
+.friendbodyonclick{
+	background-color: #FF9935;
+}
+/*偶像*/
+.idol{
+	height: 338px;
+}
+.idolbody div{
+	background-image: url(../img/meinv1_03.jpg);
+	width: 200px;
+	height: 200px;
+	margin:10px auto;
+}
+.idolbody p{
+	color: #b01d23;
+	font-size: 18px;
+	font-weight: bold;
+}
+.idol p input{
+	color: white;
+	background: url(../img/inputbg1_03.jpg);
+	border: 0;
+	border-radius: 10px;
+	width: 60px;
+	height: 22px;
+	margin:10px 14px;
+}
+/*bottom部分*/
+.bottom{
+	margin-top: 15px;
+	height: 66px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 16px;
+	word-spacing: 4px;
+	font-weight: bold;
+	background-image: url(../img/bottom_03.jpg);
+}
+.bottom a{
+		color: #811218;
+		text-decoration: none;
+}
+.bottom .bottomonclick{
+	text-decoration: underline;
+}
+.bottom a:hover{
+	text-decoration: underline;
+}
